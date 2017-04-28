@@ -224,8 +224,8 @@
           },
           {
 	    "type": "bind",
-	    "source": "/var/lib/docker",
-	    "destination": "/var/lib/docker",
+	    "source": "/var/lib",
+	    "destination": "/var/lib",
 	    "options": [
 		"bind",
 		"rw",
