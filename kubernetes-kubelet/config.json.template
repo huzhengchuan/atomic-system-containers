@@ -242,6 +242,16 @@
 		"rw",
 		"mode=755"
 	     ]
+          },
+          {
+            "type": "bind",
+            "source": "/var/log",
+            "destination": "/var/log",
+            "options": [
+                "bind",
+                "rw",
+                "mode=755"
+             ]
           }
     ], 
     "ociVersion": "1.0.0-rc2-dev", 

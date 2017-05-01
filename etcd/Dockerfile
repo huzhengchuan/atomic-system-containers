@@ -1,4 +1,4 @@
-FROM fedora:25
+FROM fedora:rawhide
 
 ENV VERSION=0.1 RELEASE=9 ARCH=x86_64
 LABEL BZComponent="etcd" \

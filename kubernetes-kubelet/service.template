@@ -1,5 +1,6 @@
 [Unit]
 Description=kubernetes-kubelet
+After=docker.service
 
 [Service]
 ExecStart=$EXEC_START

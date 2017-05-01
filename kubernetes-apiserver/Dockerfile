@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/f25/kubernetes-master:latest
+FROM docker.io/jasonbrooks/kubernetes-master:rawhide
 MAINTAINER "Jason Brooks" <jbrooks@redhat.com>
 
 ENV container=docker
